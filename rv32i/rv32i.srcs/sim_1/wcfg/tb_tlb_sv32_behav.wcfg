@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_tlb_sv32_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common" />
+            <top_module name="common_memory" />
+            <top_module name="tb_tlb_sv32" />
+            <top_module name="tools" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="913821535fs"></ZoomStartTime>
+      <ZoomEndTime time="1017235693fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="151"></NameColumnWidth>
+      <ValueColumnWidth column_width="154"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/enable">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_tlb_sv32/tlb_op">
+      <obj_property name="ElementShortName">tlb_op</obj_property>
+      <obj_property name="ObjectShortName">tlb_op</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_tlb_sv32/hart_priv">
+      <obj_property name="ElementShortName">hart_priv[1:0]</obj_property>
+      <obj_property name="ObjectShortName">hart_priv[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/sstatus_sum">
+      <obj_property name="ElementShortName">sstatus_sum</obj_property>
+      <obj_property name="ObjectShortName">sstatus_sum</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/sstatus_mxr">
+      <obj_property name="ElementShortName">sstatus_mxr</obj_property>
+      <obj_property name="ObjectShortName">sstatus_mxr</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_tlb_sv32/satp">
+      <obj_property name="ElementShortName">satp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">satp[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_tlb_sv32/vaddr">
+      <obj_property name="ElementShortName">vaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_tlb_sv32/rs1">
+      <obj_property name="ElementShortName">rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_tlb_sv32/rs2">
+      <obj_property name="ElementShortName">rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/flush">
+      <obj_property name="ElementShortName">flush</obj_property>
+      <obj_property name="ObjectShortName">flush</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/st_needed">
+      <obj_property name="ElementShortName">st_needed</obj_property>
+      <obj_property name="ObjectShortName">st_needed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/ld_needed">
+      <obj_property name="ElementShortName">ld_needed</obj_property>
+      <obj_property name="ObjectShortName">ld_needed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/op_done">
+      <obj_property name="ElementShortName">op_done</obj_property>
+      <obj_property name="ObjectShortName">op_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_tlb_sv32/st_data">
+      <obj_property name="ElementShortName">st_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">st_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_tlb_sv32/ld_data">
+      <obj_property name="ElementShortName">ld_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ld_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/i_pg_fault">
+      <obj_property name="ElementShortName">i_pg_fault</obj_property>
+      <obj_property name="ObjectShortName">i_pg_fault</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/st_pg_fault">
+      <obj_property name="ElementShortName">st_pg_fault</obj_property>
+      <obj_property name="ObjectShortName">st_pg_fault</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/ld_pg_fault">
+      <obj_property name="ElementShortName">ld_pg_fault</obj_property>
+      <obj_property name="ObjectShortName">ld_pg_fault</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/i_access_fault">
+      <obj_property name="ElementShortName">i_access_fault</obj_property>
+      <obj_property name="ObjectShortName">i_access_fault</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/st_access_fault">
+      <obj_property name="ElementShortName">st_access_fault</obj_property>
+      <obj_property name="ObjectShortName">st_access_fault</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/ld_access_fault">
+      <obj_property name="ElementShortName">ld_access_fault</obj_property>
+      <obj_property name="ObjectShortName">ld_access_fault</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/hit">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_tlb_sv32/cacheable">
+      <obj_property name="ElementShortName">cacheable</obj_property>
+      <obj_property name="ObjectShortName">cacheable</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_tlb_sv32/paddr">
+      <obj_property name="ElementShortName">paddr[33:0]</obj_property>
+      <obj_property name="ObjectShortName">paddr[33:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_tlb_sv32/UUT/state">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+</wave_config>

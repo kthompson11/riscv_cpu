@@ -1,0 +1,7 @@
+__pycache__/
+vunit_out/
+doc/
+ddr3_model/
+**/ip/
+.idea
+*.swp

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_generic_cache_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="common" />
+            <top_module name="common_memory" />
+            <top_module name="tb_generic_cache" />
+            <top_module name="tools" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="200000001fs"></ZoomEndTime>
+      <Cursor1Time time="200000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="151"></NameColumnWidth>
+      <ValueColumnWidth column_width="194"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject type="logic" fp_name="/tb_generic_cache/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_generic_cache/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_generic_cache/ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_generic_cache/cache_op">
+      <obj_property name="ElementShortName">cache_op</obj_property>
+      <obj_property name="ObjectShortName">cache_op</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_generic_cache/mem_wb_done">
+      <obj_property name="ElementShortName">mem_wb_done</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_generic_cache/mem_wb_needed">
+      <obj_property name="ElementShortName">mem_wb_needed</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_needed</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_generic_cache/mem_wb_data">
+      <obj_property name="ElementShortName">mem_wb_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wb_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_generic_cache/mem_address">
+      <obj_property name="ElementShortName">mem_address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_address[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_generic_cache/mem_ld_done">
+      <obj_property name="ElementShortName">mem_ld_done</obj_property>
+      <obj_property name="ObjectShortName">mem_ld_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_generic_cache/mem_ld_needed">
+      <obj_property name="ElementShortName">mem_ld_needed</obj_property>
+      <obj_property name="ObjectShortName">mem_ld_needed</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_generic_cache/mem_ld_data">
+      <obj_property name="ElementShortName">mem_ld_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_ld_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_generic_cache/address">
+      <obj_property name="ElementShortName">address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">address[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_generic_cache/hart_st_data">
+      <obj_property name="ElementShortName">hart_st_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hart_st_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_generic_cache/hart_ld_data">
+      <obj_property name="ElementShortName">hart_ld_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hart_ld_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_generic_cache/testing_done">
+      <obj_property name="ElementShortName">testing_done</obj_property>
+      <obj_property name="ObjectShortName">testing_done</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_generic_cache/DATA_LENGTH">
+      <obj_property name="ElementShortName">DATA_LENGTH</obj_property>
+      <obj_property name="ObjectShortName">DATA_LENGTH</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_generic_cache/ADDRESS_LENGTH">
+      <obj_property name="ElementShortName">ADDRESS_LENGTH</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_LENGTH</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_generic_cache/N_ENTRIES">
+      <obj_property name="ElementShortName">N_ENTRIES</obj_property>
+      <obj_property name="ObjectShortName">N_ENTRIES</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider663" type="divider">
+      <obj_property name="label">Internal Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_generic_cache/UUT/cache_storage">
+      <obj_property name="ElementShortName">cache_storage[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_storage[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_generic_cache/UUT/cache_state">
+      <obj_property name="ElementShortName">cache_state</obj_property>
+      <obj_property name="ObjectShortName">cache_state</obj_property>
+   </wvobject>
+</wave_config>
