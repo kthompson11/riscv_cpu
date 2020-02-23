@@ -1,0 +1,2 @@
+riscv_cpu is an implementation of a simple RV32I RISC-V cpu. Additionally, it
+includes UART and SD card peripherals.
